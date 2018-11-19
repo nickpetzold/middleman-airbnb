@@ -1,0 +1,48 @@
+.flat-banner {
+    height: 285px;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-flat {
+    margin: 0;
+    padding: 0;
+}
+
+.avatar-details {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.header-flat-user {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    margin: 40px;
+    max-width: 360px;
+
+    p {
+        color: rgb(125, 125, 125);
+        font-size: 14px;
+    }
+
+    h4 {
+        color: rgb(51, 51, 51);
+        font-size: 18px;
+    }
+
+    .user-info {
+        margin: 10px;
+    }
+
+    .location-info {
+        margin: 10px;
+    }
+}
+
+.header-flat-booking {
+    background-color: rgb(244, 244, 244);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 2px;
+}

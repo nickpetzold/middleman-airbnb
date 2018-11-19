@@ -1,0 +1,56 @@
+<% flat = data.flats[owner] %>
+<div class="flat-banner" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/<%= flat.city_slug %>');">
+</div>
+
+<div class="header-flat">
+    <div class="container">
+        <div class="row">
+            <div class="header-flat-user col-xs-12 col-sm-6 col-sm-offset-3">
+                <div class="user-info">
+                    <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "avatar-details" %>
+                    <p class="text-center">
+                        <%= owner %>
+                    </p>
+                </div>
+                <div class="location-info">
+                    <h4><%= flat.description %></h4>
+                    <p>
+                        <%= flat.city_name %>
+                    </p>
+                    <p>
+                        <% rating = flat.rating %>
+                        <% rating.times do %>
+                        <i class="fa fa-star" style="color: #ffb400"></i>
+                        <% end %>
+                        <% (5 - rating).times do %>
+                        <i class="fa fa-star" style="color: #d6d1d1"></i>
+                        <% end %>
+                    </p>
+                </div>
+            </div>
+            <div class="header-flat-booking col-xs-12 col-sm-4 col-sm-offset-2">
+                <form action="#" class="">
+                    <h4 class="">Book this flat</h4>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <input type="text" class="form-control" placeholder="checkin" id="checkin">
+                            </div>
+                            <div class="col-xs-6">
+                                <input type="text" class="form-control" placeholder="checkout">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <select name="" id="guests" class="form-control">
+                            <option value="1">1 guest</option>
+                            <option value="2">2 guests</option>
+                            <option value="3">3 guests</option>
+                        </select>
+                    </div>
+                    <input type="submit" class="btn btn-danger" value="Book it" style="width: 100%">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,42 @@
+ssaunier:
+  name: "Sebastien's home"
+  description: "Charming room in Montmartre"
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: false
+  rating: 4
+papillard:
+  name: "Boris' home"
+  description: Small flat in Tokyo
+  city_name: "Tokyo, Japan"
+  city_slug: "tokyo"
+  wifi: true
+  rating: 3
+nickpetzold:
+  name: Nick's home
+  description: Nice flat in Greenwich
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true
+  rating: 5
+sisserian:
+  name: Chris' home
+  description: Vibrant flat in Rio
+  city_name: "Rio, Brazil"
+  city_slug: "rio"
+  wifi: true
+  rating: 5
+bendu89:
+  name: Ben's home
+  description: Beach flat in Bali
+  city_name: "Bali, Indonesia"
+  city_slug: "bali"
+  wifi: true
+  rating: 5
+anandhakhaou:
+  name: Anandha's home
+  description: City flat in Montreal
+  city_name: "Montreal, Canada"
+  city_slug: "montreal"
+  wifi: true
+  rating: 5
